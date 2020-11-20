@@ -344,11 +344,11 @@
             ctx.stroke();
             ctx.font="18px Century Gothic";
 			
-            ctx.fillText("\u03B7",392.5,338); //eta => \u03B7
+            ctx.fillText("Ψ",392.5,338); //eta => \u03B7
             ctx.save();
             ctx.translate(200,200);
             ctx.rotate(-Math.PI/2);
-            ctx.fillText("Prenosivost",0,-130);
+            ctx.fillText("Prenosivost",-75,-130);
             ctx.restore();
 			//curve
             ctxgraph.beginPath()
